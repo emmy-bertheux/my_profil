@@ -1,0 +1,83 @@
+@import url(components/icon.css);
+html {
+	color: orange;
+  background: darkblue;
+}
+body, .font_perso {
+	font-family: 'Staatliches';
+}
+h1 {
+	font-size: 150px;
+	color: orange;
+	background: darkblue;
+	margin: 80px
+	padding: 30px;                             
+	border-radius: 4px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	text-align: center;
+}
+img{
+	width: 230px;
+	border-radius: 115px;
+	display: block;
+ margin-left: auto;
+ margin-right: auto;
+}	
+
+.boite1 {
+  border: solid orange 6px;
+  margin: 5px;
+  padding: 10px;
+}
+.boite2 {
+  border: solid orange 6px;
+  margin: 5px;
+  padding: 10px;
+}
+.boite3 {
+  border: solid orange 6px;
+  margin: 5px;
+  padding: 10px;
+}
+.font_perso {
+	padding: 5px;
+}
+.boite4 {
+  border: solid orange 6px;
+  margin: 5px;
+  padding: 10px;
+}
+.boite5 {
+  border: solid orange 6px;
+  margin: 5px;
+  padding: 10px;
+}
+
+h2{
+	font-size: 45px;
+	text-decoration: underline;
+	margin: 18px;
+		padding: 30px;                             
+	border-radius: 4px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
+li{
+	margin: 30px;	
+	font-size:  25px;
+}
+a {
+	font-size:  25px;
+  color: orange;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+@media (max-device-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .real {
+  	display: block;
+  }
+}
